@@ -62,7 +62,12 @@ that would be final answer
 there is some issue while running the code on google colab 
 
 ## k means clusterring
-
+in the main code block it provides label to each row 
+using the function provide_label 
+then using groupyby().mean() method we find the mean of each row 
+with that particular label and take them as y new centroids 
+currently I have set k=26 but my inuition is that k should be taken greater than that 
+as we have both small and capital letters 
 
 
 
